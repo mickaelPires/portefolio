@@ -1,11 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./composants/NavBar";
+import Routes from "./routes";
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
+      <div className="fixed-bottom d-sm-none">
+        <NavBar></NavBar>
+      </div>
+      <div className="d-none d-sm-block ">
+        <NavBar></NavBar>
+      </div>
+      <div className="mt-5">
+        <Routes />
+      </div>
       {/* <header className="App-header"> */}
       {/* <img src={logo} className="App-logo" alt="logo" />
         <p>

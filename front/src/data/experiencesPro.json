@@ -1,0 +1,51 @@
+[
+    {
+        "Id" : 1,
+        "NomEntreprise": "Caf",
+        "Poste": "animateur unité logistique",
+        "DateDebut": "14/08/2014",
+        "DateFin": "01/12/2016",
+        "Ville": "paris",
+        "Pays": "france"
+    },
+    {
+        "Id" : 2,
+        "NomEntreprise": "Monext",
+        "Poste": "anayliste testeur/Moa",
+        "DateDebut": "13/09/2021",
+        "DateFin": "",
+        "Ville": "aix-en-provence",
+        "Pays": "france"
+    }
+    ,
+    {
+        "Id" : 3,
+        "NomEntreprise": "Monext",
+        "Poste": "anayliste testeur/Moa",
+        "DateDebut": "13/09/2021",
+        "DateFin": "",
+        "Ville": "aix-en-provence",
+        "Pays": "france"
+    }
+    ,
+    {
+        "Id" : 4,
+        "NomEntreprise": "Monext",
+        "Poste": "anayliste testeur/Moa",
+        "DateDebut": "13/09/2021",
+        "DateFin": "",
+        "Ville": "aix-en-provence",
+        "Pays": "france"
+    }
+    ,
+    {
+        "Id" : 5,
+        "NomEntreprise": "Monext",
+        "Poste": "anayliste testeur/Moa",
+        "DateDebut": "13/09/2021",
+        "DateFin": "",
+        "Ville": "aix-en-provence",
+        "Pays": "france"
+    }
+  
+]
