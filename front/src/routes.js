@@ -9,10 +9,10 @@ class routes extends Component {
     return (
       <div>
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="/profil" element={<ProfilePage />}></Route>
+          <Route path="/HomePage" element={<HomePage />}></Route>
+          <Route path="/ProfilePage" element={<ProfilePage />}></Route>
           <Route
-            path="/ExperiencesPro"
+            path="/ExperiencesProPage"
             element={<ExperiencesProPage />}
           ></Route>
         </Routes>

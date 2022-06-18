@@ -12,7 +12,7 @@ function App() {
       <div className="d-none d-sm-block ">
         <NavBar></NavBar>
       </div>
-      <div className="mt-5">
+      <div className="py-5 my-5 my-sm-0 mx-3 mx-sm-5">
         <Routes />
       </div>
       {/* <header className="App-header"> */}

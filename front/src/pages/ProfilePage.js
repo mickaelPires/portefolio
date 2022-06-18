@@ -4,7 +4,7 @@ class ProfilePage extends Component {
   render() {
     return (
       <div>
-        <h1>Pages Profil</h1>
+        <h1 className="text-center">Pages Profil</h1>
         <p>
           Reprehenderit tempor ea adipisicing aliqua aliquip et sunt nisi
           nostrud minim amet excepteur. Cillum laboris tempor aute cillum aliqua

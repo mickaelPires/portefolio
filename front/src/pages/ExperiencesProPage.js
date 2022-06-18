@@ -25,7 +25,7 @@ function ExperiencesProPage() {
   ));
 
   return (
-    <div>
+    <div className="my-5">
       <div className="container">
         <div className="row">
           <h1 className="text-center">Mes Experiences Pro</h1>
