@@ -3,6 +3,7 @@ import NavBar from "./composants/NavBar";
 import HomePage from "./pages/HomePage";
 import ProfilePage from "./pages/ProfilePage";
 import ExperiencesProPage from "./pages/ExperiencesProPage";
+import TrainingComponent from "./composants/TrainingComponent";
 
 import Routes from "./routes";
 
@@ -22,14 +23,26 @@ function App() {
           <div className="h-100 px-sm-5">
             <div className="h-100 bg-white px-sm-5">
               {/* <Routes /> */}
-              <div class="border-bottom border-secondary py-5">
+              <div id="HomePage" class="border-bottom border-secondary py-5">
                 <HomePage />
               </div>
-              <div class="border-bottom border-secondary  py-5">
+              <div
+                id="ProfilePage"
+                class="border-bottom border-secondary  py-5"
+              >
                 <ProfilePage />
               </div>
-              <div class="border-bottom border-secondary  py-5">
+              <div
+                id="ExperiencesProPage"
+                class="border-bottom border-secondary  py-5"
+              >
                 <ExperiencesProPage />
+              </div>
+              <div
+                id="TrainingComponent"
+                class="border-bottom border-secondary  py-5"
+              >
+                <TrainingComponent />
               </div>
             </div>
           </div>

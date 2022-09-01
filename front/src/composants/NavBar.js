@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 class NavBar extends Component {
   render() {
@@ -27,11 +28,9 @@ class NavBar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link" to="HomePage">
+                  {/* <Link className="nav-link" to="HomePage">
                     Accueil
-                  </Link>
-                </li>
-                <li className="nav-item">
+                  </Link> */}
                   <Link className="nav-link" to="ProfilePage">
                     Mon profil
                   </Link>
@@ -39,6 +38,11 @@ class NavBar extends Component {
                 <li className="nav-item">
                   <Link className="nav-link" to="ExperiencesProPage">
                     Mes experiences pro
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="TrainingComponent">
+                    Mes formations
                   </Link>
                 </li>
               </ul>
