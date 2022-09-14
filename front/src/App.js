@@ -1,8 +1,8 @@
 import "./App.css";
 import NavBar from "./composants/NavBar";
 import HomePage from "./pages/HomePage";
-import ProfilePage from "./pages/ProfilePage";
-import ExperiencesProPage from "./pages/ExperiencesProPage";
+import ProfileComponent from "./composants/ProfileComponent";
+import ExperiencesProComponent from "./composants/ExperiencesProComponent";
 import TrainingComponent from "./composants/TrainingComponent";
 
 import Routes from "./routes";
@@ -14,7 +14,7 @@ function App() {
         <div className="fixed-bottom d-sm-none">
           <NavBar></NavBar>
         </div>
-        <div className="d-none d-sm-block ">
+        <div className="fixed-top d-none d-sm-block ">
           <NavBar></NavBar>
         </div>
       </div>
@@ -30,13 +30,13 @@ function App() {
                 id="ProfilePage"
                 class="border-bottom border-secondary  py-5"
               >
-                <ProfilePage />
+                <ProfileComponent />
               </div>
               <div
                 id="ExperiencesProPage"
                 class="border-bottom border-secondary  py-5"
               >
-                <ExperiencesProPage />
+                <ExperiencesProComponent />
               </div>
               <div
                 id="TrainingComponent"

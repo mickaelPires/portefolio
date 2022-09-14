@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Routes, Route } from "react-router-dom";
-import ExperiencesProPage from "./pages/ExperiencesProPage";
+import ExperiencesProComponent from "./composants/ExperiencesProComponent";
 import HomePage from "./pages/HomePage";
-import ProfilePage from "./pages/ProfilePage";
+import ProfileComponent from "./composants/ProfileComponent";
 
 class routes extends Component {
   render() {
@@ -10,10 +10,10 @@ class routes extends Component {
       <div>
         <Routes>
           <Route path="/HomePage" element={<HomePage />}></Route>
-          <Route path="/ProfilePage" element={<ProfilePage />}></Route>
+          <Route path="/ProfilePage" element={<ProfileComponent />}></Route>
           <Route
             path="/ExperiencesProPage"
-            element={<ExperiencesProPage />}
+            element={<ExperiencesProComponent />}
           ></Route>
         </Routes>
       </div>

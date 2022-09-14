@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import services_ExperiencesPro from "../api/services/services_ExperiencesPro";
+import dataTrainingsDatas from "../api/services/services_Trainings";
 
 function TrainingComponent() {
-  const cardsTabXpPro = services_ExperiencesPro.httpGet().map((res) => (
+  const cardsTabXpPro = dataTrainingsDatas.httpGet().map((res) => (
     <div key={res.Id} className="col-sm-6">
       <div className="card m-3 text-white bg-primary">
-        {/* <img className="card-img-top" src="holder.js/100x180/" alt="Title" /> */}
+        <img className="card-img-top" src={res.imgUrl} alt="Title" />
         <div className="card-body">
-          <h4 className="card-title text-center">{res.NomEntreprise}</h4>
-          <p className="card-text">Ecole : {res.Poste}</p>
+          <h4 className="card-title text-center">{res.IntituléDiplome}</h4>
+          <p className="card-text">Ecole : {res.NomEcole}</p>
           <p className="card-text">
             <span>Date : {res.DateDebut}</span> -
             {!res.DateFin ? (
@@ -23,6 +23,10 @@ function TrainingComponent() {
       </div>
     </div>
   ));
+
+  // function resizeImg(url) {
+  //   return <img className="card-img-top" src={res.imgUrl} alt="Title" />;
+  // }
 
   return (
     <div className="">

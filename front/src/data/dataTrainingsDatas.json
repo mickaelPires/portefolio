@@ -1,51 +1,51 @@
 [
   {
     "Id": 1,
-    "NomEntreprise": "Caf",
-    "Poste": "animateur unité logistique",
+    "NomEcole": "Toulouse Capitole 1",
+    "IntituléDiplome": "Licence pro RTAI",
     "DateDebut": "14/08/2014",
     "DateFin": "01/12/2016",
-    "Ville": "paris",
+    "Ville": "Paris",
     "Pays": "france",
     "imgUrl": "/images/psg.png"
   },
   {
     "Id": 2,
-    "NomEntreprise": "Monext",
-    "Poste": "anayliste testeur/Moa",
+    "NomEcole": "Greta Yvelines",
+    "IntituléDiplome": "Bts SIO SLAM",
     "DateDebut": "13/09/2021",
     "DateFin": "",
-    "Ville": "aix-en-provence",
+    "Ville": "Saint Germain En Laye",
     "Pays": "france",
     "imgUrl": "/images/psg.png"
   },
   {
     "Id": 3,
-    "NomEntreprise": "Monext",
-    "Poste": "anayliste testeur/Moa",
+    "NomEcole": "Greta Yvelines",
+    "IntituléDiplome": "Bts SIO SLAM",
     "DateDebut": "13/09/2021",
     "DateFin": "",
-    "Ville": "aix-en-provence",
+    "Ville": "Saint Germain En Laye",
     "Pays": "france",
     "imgUrl": "/images/psg.png"
   },
   {
     "Id": 4,
-    "NomEntreprise": "Monext",
-    "Poste": "anayliste testeur/Moa",
+    "NomEcole": "Greta Yvelines",
+    "IntituléDiplome": "Bts SIO SLAM",
     "DateDebut": "13/09/2021",
     "DateFin": "",
-    "Ville": "aix-en-provence",
+    "Ville": "Saint Germain En Laye",
     "Pays": "france",
     "imgUrl": "/images/psg.png"
   },
   {
     "Id": 5,
-    "NomEntreprise": "Monext",
-    "Poste": "anayliste testeur/Moa",
+    "NomEcole": "Greta Yvelines",
+    "IntituléDiplome": "Bts SIO SLAM",
     "DateDebut": "13/09/2021",
     "DateFin": "",
-    "Ville": "aix-en-provence",
+    "Ville": "Saint Germain En Laye",
     "Pays": "france",
     "imgUrl": "/images/psg.png"
   }
